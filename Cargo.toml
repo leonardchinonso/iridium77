@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "iridium77",
+    "cli",
+    "server",
+]
+
+# Optional: define shared dependencies
+[workspace.dependencies]
+anyhow = "1.0"
+thiserror = "1.0"
+tracing = "0.1"
+tokio = { version = "1.40", features = ["full"] }
